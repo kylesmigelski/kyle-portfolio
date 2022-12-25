@@ -8,9 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import {alpha} from "@mui/material";
 import theme from "../src/theme";
 
@@ -40,7 +38,6 @@ function ResponsiveAppBar() {
         <AppBar position="static" sx={{backgroundColor: "Black"}}       >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-
                     {/* profile  photo */}
                     <a href='/' target="_blank" >
                         <Avatar src={'../profile.jpeg'} style={{

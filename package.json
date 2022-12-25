@@ -24,7 +24,8 @@
     "react-dom": "latest",
     "react-particles": "^2.7.0",
     "react-tsparticles": "^2.7.0",
-    "tsparticles": "^2.7.0"
+    "tsparticles": "^2.7.0",
+    "tsparticles-preset-stars": "^2.7.0"
   },
   "devDependencies": {
     "eslint": "8.22.0",

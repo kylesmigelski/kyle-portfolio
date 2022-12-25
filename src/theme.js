@@ -1,29 +1,19 @@
-import { Roboto } from '@next/font/google';
-import { createTheme } from '@mui/material/styles';
-import { red } from '@mui/material/colors';
-
-export const roboto = Roboto({
-  weight: ['300', '400', '500', '700'],
-  subsets: ['latin'],
-  display: 'swap',
-  fallback: ['Helvetica', 'Arial', 'sans-serif'],
-});
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import "@fontsource/source-code-pro/variable-full.css";
+import "@fontsource/source-code-pro/variable-full-italic.css";
 
 // Create a theme instance.
 const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#556cd6',
+    palette: {
+        primary: {
+            main: '#0277bd',
+        },
+        darkGray: {
+            main: '#333333'
+        },
     },
-    secondary: {
-      main: '#19857b',
-    },
-    error: {
-      main: red.A400,
-    },
-  },
   typography: {
-    fontFamily: roboto.style.fontFamily,
+      fontFamily: 'Source Code Pro'
   },
 });
 

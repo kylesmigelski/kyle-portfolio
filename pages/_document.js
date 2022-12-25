@@ -1,17 +1,21 @@
 import * as React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
-import theme, { roboto } from '../src/theme';
+import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
 
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en" className={roboto.className}>
+      <Html lang="en" >
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+              <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Code+Pro&display=swap"
+                    rel="stylesheet"/>
           <meta name="emotion-insertion-point" content="" />
           {this.props.emotionStyleTags}
         </Head>

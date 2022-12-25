@@ -8,15 +8,12 @@ import Copyright from '../src/Copyright';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
+    <Container maxWidth="lg">
+      <Box sx={{ my: 8 }}>
+        <Typography variant="h5" component="h1" gutterBottom sx={{ my: 4 }}> Welcome to the portfolio of </Typography>
+        <Typography variant="h1" sx = {{fontFamily: 'Fjalla One'}}> Kyle Smigelski </Typography>
+
+
         <Copyright />
       </Box>
     </Container>

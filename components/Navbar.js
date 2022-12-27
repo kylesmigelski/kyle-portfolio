@@ -39,7 +39,7 @@ function ResponsiveAppBar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     {/* profile  photo */}
-                    <a href='/' target="_blank" >
+                    <a href='/'>
                         <Avatar src={'../profile.jpeg'} style={{
                             border: '2px solid lightgray',
                             width: 50,

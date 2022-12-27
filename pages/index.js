@@ -13,7 +13,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FileOpenIcon from '@mui/icons-material/FileOpen';
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
 
-Item.propTypes = {children: PropTypes.node};
+
 export default function Index() {
   return (
     <Container maxWidth="lg">

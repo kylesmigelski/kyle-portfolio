@@ -48,7 +48,7 @@ function ResponsiveAppBar() {
                     </a>
 
                     {/*  */}
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{ flexGrow: 1, justifyContent: "space-between", display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -59,6 +59,9 @@ function ResponsiveAppBar() {
                         >
                             <MenuIcon />
                         </IconButton>
+                        <Button size="small" variant="contained" href={'https://docs.google.com/document/d/1JIhGM345fVbXQ_WO8XoTGOngSrI3olIphZjYhudlcqA/export/pdf'} sx={{m:1, p:1, ':hover': {backgroundColor: alpha(theme.palette.background.paper, 0.9), color: '#f58497'},fontSize: 18, color:'#ffffff', textTransform: 'none', fontFamily: 'Source Code Pro'}}>
+                            Resume
+                        </Button>
                         <Menu
                             id="menu-appbar"
                             anchorEl={anchorElNav}
@@ -94,6 +97,10 @@ function ResponsiveAppBar() {
                                 {page}
                             </Button>
                         ))}
+                        {/* Resume download button */}
+                        <Button size="small" variant="contained" href={'https://docs.google.com/document/d/1JIhGM345fVbXQ_WO8XoTGOngSrI3olIphZjYhudlcqA/export/pdf'} sx={{m:1, p:1, ':hover': {backgroundColor: alpha(theme.palette.background.paper, 0.9), color: '#f58497'},fontSize: 18, color:'#ffffff', textTransform: 'none', fontFamily: 'Source Code Pro'}}>
+                            Resume
+                        </Button>
                     </Box>
                 </Toolbar>
             </Container>

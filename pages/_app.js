@@ -17,20 +17,14 @@ const theme = createTheme({
     fontFamily:
       'Source Code Pro',
   },
-  components: {
-    // Name of the component
-    MuiButton: {
-      styleOverrides: {
-        // Name of the slot
-        root: {
-          // Some CSS
-          fontFamily: "Source Code Pro",
-          fontWeight: 500,
-          color: "#ffffff"
-        },
-      },
+  palette: {
+    background: {
+      default: '#000000',
     },
-  },
+    primary: {
+      main: '#ffffff',
+    },
+  }
 });
 
 export default function MyApp(props) {

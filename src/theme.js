@@ -33,12 +33,22 @@ const theme = createTheme({
 theme.typography.h1 = {
     fontSize: '3.8rem',
     '@media (min-width:600px)': {
-        fontSize: '1.5rem',
+        fontSize: '4rem',
     },
     [theme.breakpoints.up('md')]: {
         fontSize: '5.8rem',
     },
 };
+
+theme.typography.h2 = {
+    fontSize: '2.0rem',
+    '@media (min-width:600px)': {
+        fontSize: '3.5rem',
+    },
+    [theme.breakpoints.up('md')]: {
+        fontSize: '5.0rem',
+    }
+}
 
 theme.typography.h5 = {
     fontSize: '0.9rem',

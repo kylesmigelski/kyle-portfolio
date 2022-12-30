@@ -82,7 +82,11 @@ function ResponsiveAppBar() {
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                   {page}
+                                    <Button key={page} color="inherit" href={`/${page.toLowerCase()}`} sx={{':hover': {backgroundColor: alpha(theme.palette.background.paper, 0.2),
+                                            color: '#f58497',
+                                        },fontSize: 18, color:'#f58497', textTransform: 'none', fontFamily: 'Source Code Pro'}}>
+                                        {page}
+                                    </Button>
                                 </MenuItem>
                             ))}
                         </Menu>

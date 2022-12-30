@@ -7,10 +7,15 @@ import Typography from "@mui/material/Typography";
 import ExperienceTabs from "../components/ExperienceTabs";
 import Particles from "../components/ParticleBG";
 import Copyright from "../src/Copyright";
+import Head from "next/head";
 
 export default function experience() {
     return (
         <ThemeProvider theme={Theme}>
+            <Head>
+                <title>Experience - Kyle Smigelski</title>
+                <meta name="description" content="Experience page"/>
+            </Head>
             <Particles id="tsparticles"/>
             <Box sx={{mx: 2, my: 4}}>
                 <Container maxWidth="lg">

@@ -53,8 +53,8 @@ export default function CustomizedTabs() {
     };
 
     return (
-        <Box sx={{ bgcolor: 'transparent', display: 'flex', width: "100%" }}>
-            <Box sx={{ bgcolor: 'transparent', }}>
+        <Box sx={{ bgcolor: 'transparent', display: 'flex', width: "100%"}}>
+            <Box sx={{ bgcolor: 'rgba(0, 0, 0, 0.85)'}}>
                 <StyledTabs
                     value={value}
                     onChange={handleChange}

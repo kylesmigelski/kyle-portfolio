@@ -7,11 +7,6 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Head from "next/head";
 import Copyright from "../src/Copyright";
-import Carousel from "../components/Carousel";
-
-const OPTIONS = { align: 'center' }
-const SLIDE_COUNT = 2
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 export default function about() {
     return (
@@ -37,9 +32,6 @@ export default function about() {
                     </Box>
                 </Container>
             </Box>
-
-            <Carousel slides={SLIDES} options={OPTIONS} />
-
             <Copyright />
         </ThemeProvider>
     )

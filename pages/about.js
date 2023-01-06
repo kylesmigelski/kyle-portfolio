@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Head from "next/head";
 import Copyright from "../src/Copyright";
+import Slides from "../components/Slides";
 
 export default function about() {
     return (
@@ -25,14 +26,22 @@ export default function about() {
                             Hi! I am a computer science student at Grand Valley State University. I am currently a
                             Junior and expect to graduate in 2024. </Typography>
                         <Typography variant="h5" component="h5" gutterBottom sx={{color: 'white', mb: 2}}>
-                            I have always had a knack for computers and technology, as well as art and design. For that reason, I
-                            decided to pursue a career in computer science - with a focus on web development and UI design. </Typography>
+                            I have always had a knack for computers and technology, as well as art and design. For that
+                            reason, I
+                            decided to pursue a career in computer science - with a focus on web development and UI
+                            design. </Typography>
                         <Typography variant="h5" component="h5" gutterBottom sx={{color: 'white', mb: 6}}>
                             I am currently looking for a summer internship for 2022! </Typography>
                     </Box>
                 </Container>
             </Box>
-            <Copyright />
+            <Box sx={{mx: 2, my: 2}}>
+                <Container maxWidth="sm">
+                    <Slides/>
+                </Container>
+            </Box>
+
+            <Copyright/>
         </ThemeProvider>
     )
 }

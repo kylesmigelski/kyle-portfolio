@@ -30,6 +30,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-swipeable-views-utils": "^0.14.0",
     "react-tsparticles": "^2.7.0",
+    "swiper": "^8.4.5",
     "tsparticles": "^2.7.0",
     "tsparticles-preset-stars": "^2.7.0"
   },

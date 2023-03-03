@@ -11,6 +11,7 @@ import Grid from "@mui/material/Grid";
 import Project1 from "../components/Projects/Project1";
 import Project2 from "../components/Projects/Project2";
 import Project3 from "../components/Projects/Project3";
+import Project4 from "../components/Projects/Project4";
 
 export default function projects() {
     return (
@@ -27,10 +28,10 @@ export default function projects() {
                 </Container>
                 <Grid container spacing={3} align = "center" justify = "center" alignItems = "center">
                     <Grid item xs={12} sm={4}>
-                        <Project1/>
+                        <Project4/>
                     </Grid>
                     <Grid item xs={12} sm={4}>
-                        <Project2/>
+                        <Project1/>
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <Project3/>

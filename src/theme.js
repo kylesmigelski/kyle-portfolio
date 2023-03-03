@@ -41,7 +41,7 @@ theme.typography.h1 = {
 };
 
 theme.typography.h2 = {
-    fontSize: '2.0rem',
+    fontSize: '3.0rem',
     '@media (min-width:600px)': {
         fontSize: '3.5rem',
     },
@@ -51,7 +51,7 @@ theme.typography.h2 = {
 }
 
 theme.typography.h5 = {
-    fontSize: '0.9rem',
+    fontSize: '1.4rem',
     '@media (min-width:600px)': {
         fontSize: '1.5rem',
     },

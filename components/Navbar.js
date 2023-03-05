@@ -12,7 +12,6 @@ import MenuItem from '@mui/material/MenuItem';
 import {alpha} from "@mui/material";
 import theme from "../src/theme";
 
-
 const pages = ['Projects', 'Experience', 'About', 'Contact'];
 
 function ResponsiveAppBar() {
@@ -102,7 +101,7 @@ function ResponsiveAppBar() {
                             </Button>
                         ))}
                         {/* Resume download button */}
-                        <Button size="small" variant="contained" href={'https://docs.google.com/document/d/1JIhGM345fVbXQ_WO8XoTGOngSrI3olIphZjYhudlcqA/export/pdf'} sx={{m:1, p:1, ':hover': {backgroundColor: alpha(theme.palette.background.paper, 0.9), color: '#f58497'},fontSize: 18, color:'#ffffff', textTransform: 'none', fontFamily: 'Source Code Pro'}}>
+                        <Button size="small" variant="contained" href={'./resume.pdf'} sx={{m:1, p:1, ':hover': {backgroundColor: alpha(theme.palette.background.paper, 0.9), color: '#f58497'},fontSize: 18, color:'#ffffff', textTransform: 'none', fontFamily: 'Source Code Pro'}}>
                             Resume
                         </Button>
                     </Box>

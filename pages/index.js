@@ -31,7 +31,7 @@ export default function Index() {
                                 of </Typography>
                         </Grid>
                         <Grid item xs>
-                            <motion.div initial="hidden" animate="visible" variants={{
+                            {/*<motion.div initial="hidden" animate="visible" variants={{
                                 hidden: {
                                     scale: .8,
                                     opacity: 0
@@ -43,11 +43,11 @@ export default function Index() {
                                         delay: .2
                                     }
                                 },
-                            }}>
+                            }}>*/}
                                 <Typography variant="h1" component="h1"
                                             sx={{my: 2, fontFamily: 'Fjalla One', color: 'white'}}> Kyle
                                     Smigelski </Typography>
-                            </motion.div>
+                           {/* </motion.div>*/}
                         </Grid>
                         <Grid item xs>
                             <Typography variant="h5" component="h5" gutterBottom sx={{color: 'grey'}}> Grand Valley
@@ -79,7 +79,7 @@ export default function Index() {
                             </Grid>
                             <Grid item>
                                 <Tooltip title="Photography">
-                                    <a target="_blank" href='https://photos.app.goo.gl/b1qXwLsajX6cUfDh9'
+                                    <a target="_blank" href='https://kylesmigelski2.myportfolio.com/'
                                        rel="noopener noreferrer">
                                         <PhotoLibraryIcon sx={{color: '#f58497', fontSize: 80}}/>
                                     </a>
@@ -87,10 +87,8 @@ export default function Index() {
                             </Grid>
                             <Grid item>
                                 <Tooltip title="Download Resume">
-                                    <a target="_blank"
-                                       href='https://docs.google.com/document/d/1JIhGM345fVbXQ_WO8XoTGOngSrI3olIphZjYhudlcqA/export/pdf'
-                                       rel="noopener noreferrer">
-                                        <FileOpenIcon sx={{color: '#f58497', fontSize: 80}}/>
+                                    <a href={'./resume.pdf'} target="_blank" rel="noreferrer">
+                                        <FileOpenIcon  href={'./resume.pdf'} sx={{color: '#f58497', fontSize: 80}}/>
                                     </a>
                                 </Tooltip>
                             </Grid>

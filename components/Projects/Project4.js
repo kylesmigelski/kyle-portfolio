@@ -23,8 +23,8 @@ export default function Project1() {
                     Wordle Clone
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    VueJS + CSS + Firebase web app inspired by Wordle. Features animations, dynamic keyboard, and
-                    Firebase authentication and stat tracking for every user.
+                    VueJS + Firebase web app inspired by Wordle. Features animations, dynamic keyboard, and
+                    Firebase authentication with Firestore stat tracking for every user.
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: 'center'}}>

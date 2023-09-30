@@ -79,7 +79,7 @@ export default function Index() {
                             </Grid>
                             <Grid item>
                                 <Tooltip title="Photography">
-                                    <a target="_blank" href='https://kylesmigelski2.myportfolio.com/'
+                                    <a target="_blank" href='https://kylesmigelski.myportfolio.com/'
                                        rel="noopener noreferrer">
                                         <PhotoLibraryIcon sx={{color: '#f58497', fontSize: 80}}/>
                                     </a>

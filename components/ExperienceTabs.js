@@ -71,7 +71,7 @@ export default function CustomizedTabs() {
                         <Box>
                             <Typography sx={{fontFamily: 'Fjalla One', my: 2, color: '#f58497', fontSize:"36px"}}>Tropical Smoothie Cafe</Typography>
                             <Typography sx={{color: 'white', fontSize:"20px", my: 1}}>Shift Manager</Typography>
-                            <Typography sx={{color: 'gray', fontSize:"16px"}}>February 2019 - August 2022</Typography>
+                            <Typography sx={{color: 'gray', fontSize:"16px"}}>February 2019 - August 2023</Typography>
                             <Divider variant={"middle"} sx={{my: 3, bgcolor: "white" }}/>
                             <List
                                 sx = {{

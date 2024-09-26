@@ -23,15 +23,15 @@ export default function about() {
                                 sx={{my: 2, fontFamily: 'Fjalla One', color: 'white'}}> About Me </Typography>
                     <Box sx={{my: 4}}>
                         <Typography variant="h5" component="h5" gutterBottom sx={{color: 'white', mb: 2}}>
-                            Hi! I am a computer science student at Grand Valley State University. I am currently a
-                            Junior and expect to graduate in 2024. </Typography>
+                            Hi! I am a software development professional with a background in computer science, having recently worked as a contract software developer at EnablePoint. I graduated from Grand Valley State University in 2024.
+                        </Typography>
                         <Typography variant="h5" component="h5" gutterBottom sx={{color: 'white', mb: 2}}>
-                            I have always had a knack for computers and technology, as well as art and design. For that
-                            reason, I
-                            decided to pursue a career in computer science - with a focus on web development and UI
-                            design. </Typography>
+                            My passion for technology, combined with my experience in web development and UI design, has driven me to continually grow in the field. I enjoy solving complex problems, designing intuitive interfaces, and building reliable web applications.
+                        </Typography>
                         <Typography variant="h5" component="h5" gutterBottom sx={{color: 'white', mb: 6}}>
-                            I am currently looking for a summer internship for 2022! </Typography>
+                            I am currently seeking a full-time software development position where I can apply my skills in ASP.NET, C#, SQL, and front-end technologies, while continuing to learn and grow in my career.
+                        </Typography>
+
                     </Box>
                 </Container>
             </Box>

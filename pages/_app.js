@@ -7,6 +7,7 @@ import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../src/createEmotionCache';
 import Layout from '../components/Layout';
 import '../global.css';
+import { GoogleAnalytics } from "nextjs-google-analytics";
 import Particles from "react-particles";
 
 // Client-side cache, shared for the whole session of the user in the browser.
@@ -29,22 +30,27 @@ const theme = createTheme({
 
 export default function MyApp(props) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
+
   return (
-      <Layout>
-        <CacheProvider value={emotionCache}>
-          <Head>
-            <meta name="viewport" content="initial-scale=1, width=device-width" />
-            <meta name="author" content="Kyle Smigelski" />
-          </Head>
-          <ThemeProvider theme={theme}>
-            {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-            <CssBaseline />
-            <Component {...pageProps} />
-          </ThemeProvider>
-        </CacheProvider>
-    </Layout>
+      <>
+        <GoogleAnalytics trackPageViews gaMeasurementId={process.env.NEXT_PUBLIC_GA_ID} />
+
+        <Layout>
+          <CacheProvider value={emotionCache}>
+            <Head>
+              <meta name="viewport" content="initial-scale=1, width=device-width" />
+              <meta name="author" content="Kyle Smigelski" />
+            </Head>
+            <ThemeProvider theme={theme}>
+              <CssBaseline />
+              <Component {...pageProps} />
+            </ThemeProvider>
+          </CacheProvider>
+        </Layout>
+      </>
   );
 }
+
 
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,

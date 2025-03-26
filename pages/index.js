@@ -53,9 +53,8 @@ export default function Index() {
                             <Typography variant="h5" component="h5" gutterBottom sx={{color: 'grey'}}> Grand Valley
                                 State
                                 University 2020 - 2024</Typography>
-                            <Typography variant="h4" component="h4" gutterBottom sx={{my: 4, color: 'white'}}> I am a
-                                current
-                                computer science student with a passion for coding, design, and photography.
+                            <Typography variant="h4" component="h4" gutterBottom sx={{my: 4, color: 'white'}}> I am a software developer 
+                                with a passion for coding, design, and photography.
                                 Check out my links for more info!</Typography>
                         </Grid>
                         {/*<Card sx={{ backgroundColor: alpha('#000000', 0.7), flexGrow: 1, width: '70vw', height: '10vw', pl: 2, pt: 0}}>*/}
